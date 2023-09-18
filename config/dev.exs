@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :live_view_studio, LiveViewStudio.Repo,
   username: "ajsnow",
-  password: "",
+  password: "password",
   hostname: "localhost",
   database: "live_view_studio_dev",
   stacktrace: true,
