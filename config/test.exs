@@ -7,7 +7,7 @@ import Config
 # Run `mix help test` for more information.
 config :live_view_studio, LiveViewStudio.Repo,
   username: "ajsnow",
-  password: "",
+  password: "password", # SCRAM-SHA-256$4096:yfiP/vkEZthDn9P0fky85g==$Yhp0ygqqJkiAcfAbuWv34OIhK+NZY9/oryN/GTqYgQw=:sT9UHyueDm0nVQagyX249l/Q3DOqB8URhj1UHTBDkvM=
   hostname: "localhost",
   database: "live_view_studio_test#{System.get_env("MIX_TEST_PARTITION")}",
   pool: Ecto.Adapters.SQL.Sandbox,
