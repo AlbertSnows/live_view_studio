@@ -38,7 +38,6 @@ defmodule LiveViewStudioWeb.LightLive do
         <button phx-click="down">
         Down
         </button>
-
         <button phx-click="up">
         Up
         </button>
