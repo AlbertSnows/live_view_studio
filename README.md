@@ -37,3 +37,10 @@ with, mainly from mix.
 e.g. mix ecto.create, ecto.setup, 
 mix ecto.gen.migration create_users, 
 and more
+Also the modules weren't working. Some sort of
+complaint about not being able to load the 
+LiveViewStudioWeb module. 
+However, when I tried to fix it, I never 
+managed to figure out the problem. 
+But I did manage to fix it
+...somehow. 

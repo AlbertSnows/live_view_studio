@@ -15,7 +15,8 @@ config :live_view_studio, LiveViewStudioWeb.Endpoint,
   url: [host: "localhost"],
   render_errors: [view: LiveViewStudioWeb.ErrorView, accepts: ~w(html json), layout: false],
   pubsub_server: LiveViewStudio.PubSub,
-  live_view: [signing_salt: "0b0bGzGO"]
+  live_view: [signing_salt: "0b0bGzGO"],
+  extra_applications: [:logger, :phoenix, :phoenix_pubsub, :ecto]
 
 # Configures the mailer
 #
